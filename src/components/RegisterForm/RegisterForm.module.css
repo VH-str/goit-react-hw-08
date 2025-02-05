@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.button {
+  margin-top: 16px;
+}

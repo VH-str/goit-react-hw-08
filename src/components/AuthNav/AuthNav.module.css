@@ -1,0 +1,10 @@
+.link {
+  text-decoration: none;
+  color: #1eff00; /* MUI primary color */
+  margin-right: 20px;
+}
+
+.active {
+  color: #ff00dd; /* MUI secondary color */
+  font-weight: bold;
+}
