@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.MuiFormControl-root {
+  margin-bottom: 16px;
+}
+
+button {
+  margin-top: 16px;
+}
+
+.MuiFormHelperText-root {
+  color: red;
+  font-size: 0.875rem;
+}
+
+.MuiTypography-h4 {
+  margin-bottom: 24px;
+}
+
+.MuiBox-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button[type='submit'] {
+  margin-top: 24px;
+  padding: 12px;
+}
