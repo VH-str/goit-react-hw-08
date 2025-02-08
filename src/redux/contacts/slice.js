@@ -55,6 +55,11 @@ const contactsSlice = createSlice({
         state.items = state.items.filter(
           contact => contact.id !== action.payload.id
         );
+      })
+      .addMatcher(logOut.fulfilled, state => {
+        state.items = [];
+        state.isLoading = false;
+        state.error = null;
       });
   },
 });
